@@ -1,0 +1,20 @@
+Package: apde
+Type: Package
+Title: Common functions used in APDE's work
+Version: 0.1.0
+Author@R: c(
+  person("Alastair", "Matheson", email = "alastair.matheson@kingcounty.gov", role = c("aut", "cre")))
+Author: Alastair Matheson [aut, cre]
+Maintainer: Alastair Matheson <alastair.matheson@kingcounty.gov>
+Description: Primarily for internal use in Public Health - Seattle & King County's
+  Assessment, Policy Development, and Evaluation (APDE) Unit. Contains common 
+  functions used in APDE's work, including for data processing (extract, 
+  transform, load), geocoding, and analyses.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports:
+    dplyr (>= 0.8.4),
+    httr,
+    rjson
